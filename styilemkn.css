@@ -87,7 +87,7 @@ p {
     justify-content: flex-end;
 }
 
-.topbar a{
+.topbar a {
     text-decoration: none !important;
     color: #fff;
     margin: auto 50px;
@@ -98,13 +98,15 @@ p {
 a:hover {
     color: #ff2626;
 }
+
 /* .topbar .search {
     width: 100px;
 } */
-.topbar .search{
+.topbar .search {
     margin: 0 50px;
 }
-.topbar .search img{
+
+.topbar .search img {
     width: 24px;
 }
 
@@ -334,9 +336,13 @@ a:hover {
 
 .sosmed img {
     width: 50px;
-    margin: 20px 10px;
+    padding: 20px 10px;
 }
 
+.sosmed img:hover {
+    width: 60px;
+    padding: 15px 5px;
+}
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
